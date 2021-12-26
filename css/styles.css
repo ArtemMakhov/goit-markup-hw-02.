@@ -5,7 +5,7 @@
 /* черный цвет лого #000000 */
 /* цвет  фона шапки  #ECECEC */
 /* цвет фона футера #2F303A */
-/* цвет с прозрачностью rgba(255, 255, 255, 0,6); */
+/* цвет с прозрачностью rgba(255, 255, 255, 0.6); */
 
 :root {
   --primary-text-color: #757575;
@@ -15,6 +15,9 @@
   --logo-black-color: #000000;
   --background-color-header: #ececec;
   --background-color-footer: #2f303a;
+}
+body {
+  color: var(--primary-text-color);
 }
 ul {
   list-style: none;
@@ -61,4 +64,18 @@ ul {
 .hero .hero-btn {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
+}
+/* основной контент */
+.title {
+  color: var(--title-color);
+}
+/* Footer  */
+.add .link {
+  color: rgba(255, 255, 255, 0.6);
+}
+.add .add-link {
+  color: var(--primary-white-color);
+}
+.basement {
+  background-color: var(--background-color-footer);
 }
