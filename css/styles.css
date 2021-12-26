@@ -1,6 +1,6 @@
 /* основной цвет текста #757575 */
 /* цвет заголовков #212121 */
-/* голубой #2196F3 */
+/* акцент #2196F3 */
 /* белый цвет текста #FFFFFF */
 /* черный цвет лого #000000 */
 /* цвет  фона шапки  #ECECEC */
@@ -8,11 +8,46 @@
 /* цвет с прозрачностью rgba(255, 255, 255, 0,6); */
 
 :root {
-  --basic-text-color: #757575;
+  --primary-text-color: #757575;
   --title-color: #212121;
-  --article-color: #2196f3;
-  --basic-white-color: #ffffff;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
   --logo-black-color: #000000;
   --background-color-header: #ececec;
   --background-color-footer: #2f303a;
+}
+ul {
+  list-style: none;
+}
+/* Logo */
+.logo-header {
+  color: var(--logo-black-color);
+}
+.logo-accent {
+  color: var(--accent-color);
+}
+.logo-footer {
+  color: var(--primary-white-color);
+}
+
+/* Sait nav */
+.site-nav .link {
+  color: var(--title-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+.auth-nav .link {
+  color: var(--primary-text-color);
+}
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+  color: var(--accent-color);
+}
+.header {
+  background-color: var(--primary-white-color);
 }
