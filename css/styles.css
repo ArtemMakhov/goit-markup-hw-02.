@@ -3,7 +3,7 @@
 /* акцент #2196F3 */
 /* белый цвет текста #FFFFFF */
 /* черный цвет лого #000000 */
-/* цвет  фона шапки  #ECECEC */
+/* цвет  фона нашей команды  #F5F4FA*/
 /* цвет фона футера #2F303A */
 /* цвет с прозрачностью rgba(255, 255, 255, 0.6); */
 
@@ -13,11 +13,12 @@
   --accent-color: #2196f3;
   --primary-white-color: #ffffff;
   --logo-black-color: #000000;
-  --background-color-header: #ececec;
+  --background-color-command: #f5f4fa;
   --background-color-footer: #2f303a;
 }
 body {
   color: var(--primary-text-color);
+  background-color: var(--primary-white-color);
 }
 ul {
   list-style: none;
@@ -69,6 +70,9 @@ ul {
 .title {
   color: var(--title-color);
 }
+.team {
+  background-color: var(--background-color-command);
+}
 /* Footer  */
 .add .link {
   color: rgba(255, 255, 255, 0.6);
@@ -78,4 +82,14 @@ ul {
 }
 .basement {
   background-color: var(--background-color-footer);
+}
+/* Кнопки портфолио */
+.filter .btn {
+  color: var(--title-color);
+  background-color: var(--background-color-command);
+}
+.filter .btn:hover,
+.filter .btn:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
 }
