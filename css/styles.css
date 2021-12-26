@@ -30,7 +30,7 @@ ul {
   color: var(--primary-white-color);
 }
 
-/* Sait nav */
+/* Header */
 .site-nav .link {
   color: var(--title-color);
 }
@@ -50,4 +50,15 @@ ul {
 }
 .header {
   background-color: var(--primary-white-color);
+}
+/*ГЕРОЙ*/
+.hero {
+  background-color: var(--background-color-footer);
+}
+.hero-title {
+  color: var(--primary-white-color);
+}
+.hero .hero-btn {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
 }
