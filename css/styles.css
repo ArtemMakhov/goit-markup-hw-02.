@@ -1,0 +1,18 @@
+/* основной цвет текста #757575 */
+/* цвет заголовков #212121 */
+/* голубой #2196F3 */
+/* белый цвет текста #FFFFFF */
+/* черный цвет лого #000000 */
+/* цвет  фона шапки  #ECECEC */
+/* цвет фона футера #2F303A */
+/* цвет с прозрачностью rgba(255, 255, 255, 0,6); */
+
+:root {
+  --basic-text-color: #757575;
+  --title-color: #212121;
+  --article-color: #2196f3;
+  --basic-white-color: #ffffff;
+  --logo-black-color: #000000;
+  --background-color-header: #ececec;
+  --background-color-footer: #2f303a;
+}
