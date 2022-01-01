@@ -25,6 +25,7 @@ body {
 }
 button {
   font-family: inherit;
+  cursor: pointer;
 }
 
 ul {
@@ -35,7 +36,7 @@ ul {
   color: var(--logo-black-color);
 
   font-family: Raleway, cursive;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
@@ -47,7 +48,7 @@ ul {
   color: var(--primary-white-color);
 
   font-family: Raleway, cursive;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
@@ -99,13 +100,16 @@ ul {
   text-align: center;
   letter-spacing: 0.06em;
 }
-.hero .hero-btn {
+.hero .hero-button {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
 
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.8;
+  display: flex;
+  align-items: center;
+  text-align: center;
   letter-spacing: 0.06em;
 }
 
@@ -118,7 +122,8 @@ ul {
   line-height: 1.16;
   text-align: center;
 }
-.title {
+.title,
+.title-pf {
   color: var(--title-color);
 
   font-weight: 700;
@@ -158,12 +163,29 @@ ul {
   background-color: var(--background-color-footer);
 }
 /* Кнопки портфолио */
-.filter .btn {
+.filter .button {
   color: var(--title-color);
   background-color: var(--background-color-command);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+
+  text-align: center;
+  letter-spacing: 0.03em;
 }
-.filter .btn:hover,
-.filter .btn:focus {
+.filter .button:hover,
+.filter .button:focus {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
+}
+.title-pf {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.text-pf {
+  font-size: 16px;
+  line-height: 1.87;
 }
