@@ -122,19 +122,23 @@ ul {
   line-height: 1.16;
   text-align: center;
 }
-.title,
-.title-pf {
+.team-title,
+.advantages-title,
+.title-portfolio {
   color: var(--title-color);
 
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
 }
+.advantages-title {
+  text-transform: uppercase;
+}
 .advantages-text {
   font-size: 14px;
   line-height: 1.71;
 }
-.team .title {
+.team-title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -147,6 +151,9 @@ ul {
   line-height: 1.18;
 }
 /* Footer  */
+.add {
+  font-style: normal;
+}
 .add .link {
   color: rgba(255, 255, 255, 0.6);
   font-size: 14px;
@@ -163,7 +170,7 @@ ul {
   background-color: var(--background-color-footer);
 }
 /* Кнопки портфолио */
-.filter .button {
+.filter-button {
   color: var(--title-color);
   background-color: var(--background-color-command);
 
@@ -174,18 +181,22 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
 }
-.filter .button:hover,
-.filter .button:focus {
+.filter-button:hover,
+.filter-button:focus {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
 }
-.title-pf {
+.title-portfolio {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
 
-.text-pf {
+.text-portfolio {
   font-size: 16px;
   line-height: 1.87;
+  color: var(--primary-text-color);
+}
+.work-exemples {
+  text-decoration: none;
 }
